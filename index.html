@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Taches</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid  pt-5  ">
+        <div class="w-25 mx-auto  ">
+            <h2 class="text-center">Linga wara def🗒️</h2>
+
+            <form action="" onsubmit="ajouter();   return false;">
+
+                <div class=" mb-3">
+                    <label for="tache" class="form-label ">Tache</label>
+                    <input type="text" class="form-control" id="tache" placeholder="Veuillez ajouter une tache">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea class="form-control" id="description" rows="3"></textarea>
+                </div>
+
+                <div class="col-auto ">
+                    <button type="submit" class="btn btn-primary mb-3" id="submit">Ajouter</button>
+                </div>
+
+            </form>
+        </div>
+        <hr>
+
+        <div class="row" id="row">
+            <!-- debut 1ere tache -->
+            <!-- <div class="col-3">
+
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tache 1</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-danger">Supprimer</a>
+                    </div>
+                </div>
+
+
+            </div> -->
+            <!-- fin 1ere tache -->
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./assets/bootstrap-5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

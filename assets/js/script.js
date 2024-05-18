@@ -32,4 +32,7 @@ function ajouter() {
   div3.appendChild(titre);
   div3.appendChild(paragraphe);
   div3.appendChild(btnSup);
+
+  document.getElementById("tache").value = "";
+  document.getElementById("description").value = "";
 }

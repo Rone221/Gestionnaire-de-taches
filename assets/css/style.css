@@ -1,3 +1,6 @@
 .card {
   width: 18rem;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
